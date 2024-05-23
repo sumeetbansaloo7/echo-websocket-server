@@ -22,3 +22,9 @@ This is a basic WebSocket server implemented using FastAPI. The server listens f
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Running
+```bash
+python3 app/main.py
+```
