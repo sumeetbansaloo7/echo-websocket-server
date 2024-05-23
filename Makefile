@@ -1,6 +1,6 @@
 DOCKER_USERNAME := sumeetbansal007
 IMAGE_NAME := echo-websocket-server
-TAG := latest
+TAG := $(shell git rev-parse --short HEAD)
 
 .PHONY: build
 build:

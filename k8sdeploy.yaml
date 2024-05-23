@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: echo-websocket-server
-          image: sumeetbansal007/echo-websocket-server:latest
+          image: sumeetbansal007/echo-websocket-server:6f745da
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
